@@ -16,7 +16,7 @@ namespace testdotnetcore.Business
         public IEnumerable<string> Get()
         {
             //return new string[] { "value1", "value2" };
-            return new List<string>() { "value 3","value 4", "value 5" };
+            return new List<string>() { "value 3","value 4", "value 5", "value 6" };
         }
 
         // GET api/values/5
