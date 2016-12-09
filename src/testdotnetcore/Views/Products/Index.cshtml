@@ -1,0 +1,15 @@
+﻿@model testdotnetcore.Business.ProductsViewModel
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <ol>
+        @foreach (var item in Model.Products)
+        {
+
+        <li> @item.Name </li>
+        
+        }
+    </ol>
+    }
+
